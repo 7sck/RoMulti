@@ -1,0 +1,29 @@
+# Ignore build directories
+/build/
+
+# Ignore VSCode settings and workspace files
+.vscode/
+
+# Ignore all .exe files
+*.exe
+
+# Ignore debug/release directories and binaries
+/debug/
+/release/
+
+# Ignore object and dependency files
+*.o
+*.obj
+*.lib
+*.a
+*.dll
+*.pdb
+
+# Ignore generated files
+*.log
+*.out
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
