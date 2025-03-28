@@ -13,10 +13,10 @@ Creates a hidden window that claims the `ROBLOX_singletonMutex`, allowing other 
 ## Building
 ```bash
 # Clang
-clang++ -std=c++17 -o RobloxMultiInstance.exe Multi-Instance.cc -luser32
+clang++ -std=c++17 -o RoMulti.exe RoMulti.cc -luser32
 
 # MSVC
-cl.exe /std:c++17 /EHsc Multi-Instance.cc user32.lib
+cl.exe /std:c++17 /EHsc RoMulti.cc user32.lib
 ```
 
 Note: Teleports between games may be inconsistent.
