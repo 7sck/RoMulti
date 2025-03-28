@@ -1,4 +1,4 @@
-# Hidden Roblox Multi-Instance
+# RoMulti
 
 Run multiple Roblox instances simultaneously with no visible windows.
 
