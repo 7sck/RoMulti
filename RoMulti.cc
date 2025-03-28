@@ -25,7 +25,7 @@ int main()
     HWND hWnd = CreateWindowExW(
         WS_EX_TOOLWINDOW,
         wc.lpszClassName,
-        L"Roblox Multi-Instance",
+        L"RoMulti",
         WS_OVERLAPPED,
         0, 0, 0, 0,
         NULL, NULL,
